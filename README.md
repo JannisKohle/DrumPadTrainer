@@ -32,3 +32,4 @@ When you open the App you will see a navigation bar on the top of the screen. Th
 
 - **SETTINGS** brings you to the settings page where you can edit which exercises you want to do for WARMUP and PRACTICE mode.
 You can also create an account or log in with an existing one so that you can store them in a DB or use multiple devices.
+To create an account you just need username and password.
