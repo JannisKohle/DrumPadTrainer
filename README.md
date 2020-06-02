@@ -20,3 +20,15 @@ program automatically changes the BPM after doing the exercise x times at a lowe
 you need to tell the App if the BPM was *EASY*, *MEDIUM*, *HARD*, *IMPOSSIBLE*. The starting BPM in a new
 session is always between *MEDIUM* and *HARD* (same for WARMUP MODE). Like that the program always knows
 what you need to practice and you will get better faster.
+
+
+## The App:
+
+When you open the App you will see a navigation bar on the top of the screen. There you can go to three pages:
+
+- **NEW SESSION** brings you to a page where you can start a new session.
+
+- **EXERCISES** brings you to a page where you can see and edit your exercises and download an exercise.
+
+- **SETTINGS** brings you to the settings page where you can edit which exercises you want to do for WARMUP and PRACTICE mode.
+You can also create an account or log in with an existing one so that you can store them in a DB or use multiple devices.
