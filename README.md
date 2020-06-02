@@ -21,6 +21,16 @@ you need to tell the App if the BPM was *EASY*, *MEDIUM*, *HARD*, *IMPOSSIBLE*. 
 session is always between *MEDIUM* and *HARD* (same for WARMUP MODE). Like that the program always knows
 what you need to practice and you will get better faster.
 
+## How to install it:
+
+Right now the first version is just in development, so you need to wait until a release is there.
+This is what I think it might be like at the beginning:
+
+- clone the Repo
+
+- run setup.py ?
+
+- run run.py to open the app.
 
 ## The App:
 
