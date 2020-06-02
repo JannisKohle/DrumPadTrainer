@@ -33,3 +33,123 @@ When you open the App you will see a navigation bar on the top of the screen. Th
 - **SETTINGS** brings you to the settings page where you can edit which exercises you want to do for WARMUP and PRACTICE mode.
 You can also create an account or log in with an existing one so that you can store them in a DB or use multiple devices.
 To create an account you just need username and password.
+
+## Some random other stuff:
+
+### How exercises are stored:
+
+Exercises are stored like this: (This is a paradiddle, it is in 4/4 but there are 16th notes -> same as 16/16,
+it only has 1 bar (the bar has 4 quarter notes), replaid 8 times)
+
+```json
+{
+    "name": "Paradiddle",
+    "rythm": [4, 4],
+    "replay": 8,
+    "startBPM": 80,
+    "bars": [
+        [
+            "EXPLANATION: an empty 16th Note would be an empty list, not no list at all!"
+            "EXPLANATION: 1st quarter Note: 1th - 4th 16thNote",
+
+            [
+                {"type": "16thNote", "hand": "right", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 2nd quarter Note: 5th - 8th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "left", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 3rd quarter Note: 9th - 12th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "right", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 4th quarter Note: 13th - 16th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "left", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ]
+        ],
+        "EXPLANATION: here could be more bars, above is just the 1st bar"
+    ]
+}
+```
+
+-------------------
+
+**Empty example:**
+
+```json
+{
+    "name": "",
+    "rythm": [],
+    "replay": 0,
+    "startBPM": 0,
+    "bars": [
+        [
+            [],
+            [],
+            [],
+            []
+        ],
+        [
+            [],
+            [],
+            [],
+            []
+        ],
+        [
+            [],
+            [],
+            [],
+            []
+        ],
+        [
+            [],
+            [],
+            [],
+            []
+        ]
+    ]
+}
+```
