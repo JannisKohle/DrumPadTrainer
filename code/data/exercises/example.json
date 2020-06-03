@@ -1,6 +1,6 @@
 {
     "name": "Paradiddle",
-    "rythm": [4, 4],
+    "rythm": [16, 16],
     "replay": 8,
     "startBPM": 80,
     "public": false,
