@@ -1,5 +1,5 @@
 # Drum-Pad-Trainer
-
+ 
 A program that help you get better at drumming by practicing different Exercises at different BPM.
 To use the App, you need to install **npm** and **Python 3** because the frontend is created with **Electron**
 and the backend with **Python 3**.
