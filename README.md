@@ -49,7 +49,7 @@ To create an account you just need username and password.
 ### How exercises are stored:
 
 Exercises are stored like this: (This is a paradiddle, it is in 4/4 but there are 16th notes -> same as 16/16,
-it only has 1 bar (the bar has 4 quarter notes), replaid 8 times)
+it only has 1 bar (the bar has 4 quarter notes), replaid 8 times, not published)
 
 ```json
 {
@@ -57,6 +57,7 @@ it only has 1 bar (the bar has 4 quarter notes), replaid 8 times)
     "rythm": [4, 4],
     "replay": 8,
     "startBPM": 80,
+    "public": false,
     "bars": [
         [
             "EXPLANATION: an empty 16th Note would be an empty list, not no list at all!"

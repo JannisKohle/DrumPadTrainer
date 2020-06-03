@@ -1,0 +1,72 @@
+{
+    "name": "Paradiddle",
+    "rythm": [4, 4],
+    "replay": 8,
+    "startBPM": 80,
+    "public": false,
+    "bars": [
+        [
+            "EXPLANATION: an empty 16th Note would be an empty list, not no list at all!"
+            "EXPLANATION: 1st quarter Note: 1th - 4th 16thNote",
+
+            [
+                {"type": "16thNote", "hand": "right", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 2nd quarter Note: 5th - 8th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "left", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 3rd quarter Note: 9th - 12th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "right", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+
+            "EXPLANATION: 4th quarter Note: 13th - 16th 16thNotes",
+
+            [
+                {"type": "16thNote", "hand": "left", "sound": "accent"}
+            ],
+            [
+                {"type": "16thNote", "hand": "right", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ],
+            [
+                {"type": "16thNote", "hand": "left", "sound": "normal"}
+            ]
+        ],
+        "EXPLANATION: here could be more bars, above is just the 1st bar"
+    ]
+}
