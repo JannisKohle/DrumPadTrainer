@@ -1,3 +1,7 @@
+import os
+import json
+
+
 def getIndex(el, ls): # would return from 0 to len(ls)-1 <- normal index
     index = -1
     for i in ls:
@@ -28,7 +32,13 @@ def createEx(name, rythm, replay, startBPM, bars):
             if type(note[0]) != dict:
                 return f"WrongNoteError({bar}/{getIndex(note, bar)})"
 
-    # go on ...
+    toWrite = {"name": name, "rythm": rythm, "replay": replay, "startBPM": startBPM, "bars": bars}
+
+    os.chdir("data/exercises/")
+    os.system(f"touch {name}.json")
+    with open(f"{name}.json", "r+") as f:
+        json.dump(toWrite, f)
+        
 
 def delEx(name):
     pass
