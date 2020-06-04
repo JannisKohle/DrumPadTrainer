@@ -1,5 +1,5 @@
 # Drum-Pad-Trainer
- 
+
 A program that help you get better at drumming by practicing different Exercises at different BPM.
 To use the App, you need to install **npm** and **Python 3** because the frontend is created with **Electron**
 and the backend with **Python 3**.
@@ -45,6 +45,16 @@ You can also create an account or log in with an existing one so that you can st
 To create an account you just need username and password.
 
 ## Some random other stuff:
+
+## A Diagram:
+
+Database (maybe on the Pi)
+          ^
+Server (Raspberry Pi)    <----REQUEST & ANSWER-----    User / Client
+
+
+The Client sends a Request (read or write) to the Pi which checks if it is valid, then writes or reads data from the DB.
+I'm not an expert, so one method to send the requests and answers would be Email. There's probably a better method, but this is the easiest.
 
 ### How exercises are stored:
 
